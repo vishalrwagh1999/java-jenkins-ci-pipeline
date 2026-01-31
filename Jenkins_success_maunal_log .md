@@ -1,4 +1,4 @@
-Started by user unknown or anonymous
+Started by user Vishal Ramesh Wagh
 Running as SYSTEM
 Building on the built-in node in workspace /var/lib/jenkins/workspace/java-jenkins-ci-pipeline
 The recommended git tool is: NONE
@@ -11,13 +11,14 @@ Fetching upstream changes from https://github.com/vishalrwagh1999/java-jenkins-c
  > git --version # 'git version 2.43.0'
  > git fetch --tags --force --progress -- https://github.com/vishalrwagh1999/java-jenkins-ci-pipeline +refs/heads/*:refs/remotes/origin/* # timeout=10
  > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
-Checking out Revision 92d8099786df5c14836135bdc14033d01bc858c8 (refs/remotes/origin/main)
+Checking out Revision a511a57ca825bfd04c51bccdfc3b1b7dc393ff2d (refs/remotes/origin/main)
  > git config core.sparsecheckout # timeout=10
- > git checkout -f 92d8099786df5c14836135bdc14033d01bc858c8 # timeout=10
-Commit message: "java-jenkins-ci-pipeline created by vishal"
- > git rev-list --no-walk 92d8099786df5c14836135bdc14033d01bc858c8 # timeout=10
-[java-jenkins-ci-pipeline] $ /bin/sh -xe /tmp/jenkins13153354445205313441.sh
-+ java RepublicDay2026.java
+ > git checkout -f a511a57ca825bfd04c51bccdfc3b1b7dc393ff2d # timeout=10
+Commit message: "Add project title to README"
+ > git rev-list --no-walk a511a57ca825bfd04c51bccdfc3b1b7dc393ff2d # timeout=10
+[java-jenkins-ci-pipeline] $ /bin/sh -xe /tmp/jenkins3859385411393810802.sh
++ javac RepublicDay2026.java
++ java RepublicDay2026
 ====================================
   REPUBLIC DAY 2026 - DETAILS
 ====================================
@@ -29,12 +30,6 @@ Date (DD/MM/YYYY): 26/01/2026
 --- About Republic Day ---
 Republic Day is celebrated on 26th January every year in India.
 It commemorates the adoption of the Indian Constitution.
-
---- Historical Significance ---
-• Constitution adopted: 26 January 1950
-• India became a sovereign democratic republic
-• Dr. B.R. Ambedkar: Architect of the Indian Constitution
-• Constitution came into effect: 26 January 1950
 
 --- Celebration Details ---
 • National Holiday: Yes
